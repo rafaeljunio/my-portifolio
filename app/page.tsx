@@ -8,6 +8,7 @@ import { MobileNav } from './_components/mobile-nav'
 import { Nav } from './_components/nav'
 import { Services } from './_components/services'
 import { Skills } from './_components/skills'
+import { Projects } from './_components/projects'
 
 export default function Home() {
   const [nav, setNav] = useState(false)
@@ -25,6 +26,7 @@ export default function Home() {
         <About />
         <Services />
         <Skills />
+        <Projects />
       </div>
     </div>
   )
