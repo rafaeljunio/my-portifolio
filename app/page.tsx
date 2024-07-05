@@ -6,9 +6,10 @@ import { About } from './_components/about'
 import { Hero } from './_components/hero'
 import { MobileNav } from './_components/mobile-nav'
 import { Nav } from './_components/nav'
+import { Projects } from './_components/projects'
 import { Services } from './_components/services'
 import { Skills } from './_components/skills'
-import { Projects } from './_components/projects'
+import { Testimonial } from './_components/testimonial'
 
 export default function Home() {
   const [nav, setNav] = useState(false)
@@ -27,6 +28,7 @@ export default function Home() {
         <Services />
         <Skills />
         <Projects />
+        <Testimonial />
       </div>
     </div>
   )
