@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import { About } from './_components/about'
 import { Blog } from './_components/blog'
+import { Footer } from './_components/footer'
 import { Hero } from './_components/hero'
 import { MobileNav } from './_components/mobile-nav'
 import { Nav } from './_components/nav'
@@ -23,14 +24,16 @@ export default function Home() {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
         <Hero />
-      </div>
-      <div className="relative z-[30]">
-        <About />
-        <Services />
-        <Skills />
-        <Projects />
-        <Testimonial />
-        <Blog />
+
+        <div className="relative z-[30]">
+          <About />
+          <Services />
+          <Skills />
+          <Projects />
+          <Testimonial />
+          <Blog />
+          <Footer />
+        </div>
       </div>
     </div>
   )
