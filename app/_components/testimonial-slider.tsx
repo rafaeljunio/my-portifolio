@@ -29,6 +29,7 @@ export const TestimonialSlider = () => {
       arrows={true}
       autoPlay={true}
       autoPlaySpeed={5000}
+      centerMode={false}
       infinite
       responsive={responsive}
       itemClass="item"

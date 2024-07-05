@@ -3,6 +3,7 @@
 import { useState } from 'react'
 
 import { About } from './_components/about'
+import { Blog } from './_components/blog'
 import { Hero } from './_components/hero'
 import { MobileNav } from './_components/mobile-nav'
 import { Nav } from './_components/nav'
@@ -29,6 +30,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Testimonial />
+        <Blog />
       </div>
     </div>
   )
